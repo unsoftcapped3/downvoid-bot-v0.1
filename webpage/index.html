@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="script"></script>
+  </head>
+  <body>
+    <h1>Control panel thing</h1>
+    <textarea id="evInp"></textarea><br>
+    <button onclick="evalConsole()">Evaluate</button><br>
+    <input id="msgInp"><br>
+    <button onclick="msg()">Send message</button>
+    <select id = "msgChannel">
+      <option value = "#general">#counting</option>
+      <option value = "#chat">#chat</option>
+      <option value = "#bot-commands">#bot-commands</option>
+      <option value = "#onion-bot-testing">#onion-bot-testing</option>
+    </select>
+    <button onclick="lock()">Lock channel</button>
+    <button onclick="unlock()">Unlock channel</button>
+  </body>
+</html>
